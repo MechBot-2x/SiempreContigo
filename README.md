@@ -74,6 +74,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
    Abre tu navegador y visita:
    ```
    http://localhost:3000
+
    ```
 
 ---
