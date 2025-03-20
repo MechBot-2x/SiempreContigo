@@ -1,11 +1,89 @@
+```css
+/* Estilos generales para el cuerpo del documento */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
-    padding: 50px;
+    font-family: 'Arial', sans-serif; /* Fuente general */
+    margin: 0; /* Eliminar márgenes por defecto */
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Color de texto principal */
 }
 
-h1 {
-    color: #007BFF;
+/* Contenedor principal de la aplicación */
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Altura completa de la ventana del navegador */
 }
+
+/* Estilos para la cabecera */
+header {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none; /* Quitar estilos de lista */
+    padding: 0; /* Eliminar padding por defecto */
+    margin: 10px 0; /* Márgenes superior e inferior */
+}
+
+nav ul li {
+    display: inline; /* Mostrar los elementos de la lista en línea */
+    margin: 0 15px; /* Espaciado horizontal */
+}
+
+nav a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Quitar subrayado de enlaces */
+    font-weight: bold; /* Negrita para mejorar la visibilidad */
+}
+
+/* Estilos para la sección principal */
+main {
+    flex: 1; /* Hacer que el main ocupe todo el espacio disponible */
+    padding: 20px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar desplazamiento vertical si es necesario */
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px; /* Espaciado interno de los botones */
+    margin: 10px 0; /* Espaciado vertical */
+    background-color: #28a745; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde visible */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    text-align: center; /* Centrar el texto */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para los párrafos dentro de las secciones */
+p {
+    line-height: 1.6; /* Espaciado de línea para mejorar la lectura */
+}
+
+/* Clases adicionales para mejorar la visibilidad de mensajes */
+.alert {
+    color: #dc3545; /* Color rojo para mensajes de alerta */
+    font-weight: bold; /* Negrita */
+}
+
+.success {
+    color: #28a745; /* Color verde para mensajes de éxito */
+    font-weight: bold; /* Negrita */
+}
+```

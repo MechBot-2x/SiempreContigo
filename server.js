@@ -5,9 +5,9 @@ const path = require('path');
 // Servir archivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Ruta de ejemplo
+// Ruta de API
 app.get('/api/salud', (req, res) => {
-    res.json({ mensaje: 'Bienvenido a Siempre Contigo' });
+    res.json({ mensaje: 'Bienvenido a Siempre Contigo - API de Salud' });
 });
 
 // Iniciar el servidor

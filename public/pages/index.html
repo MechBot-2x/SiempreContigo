@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siempre Contigo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Siempre Contigo</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#salud">Seguimiento de Salud</a></li>
+                <li><a href="#asistente">Asistente Virtual</a></li>
+                <li><a href="#social">Conexión Social</a></li>
+                <li><a href="#bienestar">Actividades y Bienestar</a></li>
+                <li><button class="boton-pánico">Botón de Pánico</button></li>
+                <li><button class="boton-asistente">Asistente Virtual</button></li>
+                <li><button class="boton-salud">Seguimiento de Salud</button></li>
+                <li><button class="boton-social">Conexión Social</button></li>
+                <li><button class="boton-bienestar">Actividades y Bienestar</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="seccion-principal">
+            <h2>Bienvenido, [Nombre del Usuario]!</h2>
+            <p>¡Te deseamos un día lleno de bienestar y conexión!</p>
+            <div class="resumen-diario">
+                <h3>Resumen del Día</h3>
+                <ul>
+                    <li>Próxima cita: [Hora] - [Descripción]</li>
+                    <li>Recordatorio de medicamento: [Nombre] - [Hora]</li>
+                    <li>Actividad física: [Pasos] pasos realizados</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="pánico" class="seccion-oculta">
+            <h2>Botón de Pánico</h2>
+            <p>¿Estás seguro de que deseas enviar una alerta de emergencia?</p>
+            <button id="confirmar-pánico">Confirmar Emergencia</button>
+            <button id="llamar-emergencia">Llamar a Emergencias</button>
+        </section>
+
+        <section id="asistente" class="seccion-oculta">
+            <h2>Asistente Virtual</h2>
+            <div class="chat-container">
+                <div class="chat-log">
+                    </div>
+                <input type="text" id="mensaje-usuario" placeholder="Escribe tu mensaje...">
+                <button id="enviar-mensaje">Enviar</button>
+            </div>
+        </section>
+
+        <section id="salud" class="seccion-oculta">
+            <h2>Seguimiento de Salud</h2>
+            <div class="registro-actividad">
+                <h3>Actividad Física</h3>
+                <p>Pasos: <span id="pasos">0</span></p>
+                <p>Distancia: <span id="distancia">0</span> km</p>
+                <p>Calorías: <span id="calorias">0</span> kcal</p>
+                <p>Tiempo activo: <span id="tiempo-activo">0</span> min</p>
+            </div>
+            <div class="registro-sueño">
+                <h3>Seguimiento del Sueño</h3>
+                <p>Horas de sueño: <span id="horas-sueño">0</span></p>
+                <p>Calidad del sueño: <span id="calidad-sueño">0</span>%</p>
+            </div>
+            <div class="control-vital">
+                <h3>Control de Signos Vitales</h3>
+                <p>Presión arterial: <input type="text" id="presion-arterial"></p>
+                <p>Pulso: <input type="text" id="pulso"></p>
+                <p>Temperatura: <input type="text" id="temperatura"></p>
+                <button id="guardar-vitales">Guardar</button>
+            </div>
+            <div class="historial-salud">
+                <h3>Historial de Salud</h3>
+                </div>
+        </section>
+
+        <section id="social" class="seccion-oculta">
+            <h2>Conexión Social</h2>
+            <div class="contactos-emergencia">
+                <h3>Contactos de Emergencia</h3>
+                <ul>
+                    <li>[Nombre] - [Teléfono]</li>
+                    </ul>
+            </div>
+            <div class="contactos-familiares">
+                <h3>Familiares y Amigos</h3>
+                <ul>
+                    <li>[Nombre] - [Teléfono]</li>
+                    </ul>
+            </div>
+            <button id="videollamada">Videollamada</button>
+            <div class="comunidades">
+                <h3>Comunidades</h3>
+                </div>
+        </section>
+
+        <section id="bienestar" class="seccion-oculta">
+            <h2>Actividades y Bienestar</h2>
+            <div class="recomendaciones">
+                <h3>Recomendaciones Personalizadas</h3>
+                </div>
+            <div class="actividades-locales">
+                <h3>Actividades Locales</h3>
+                </div>
+            <div class="contenido-bienestar">
+                <h3>Contenido de Bienestar</h3>
+                </div>
+            <div class="juegos">
+                <h3>Juegos y Entretenimiento</h3>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Siempre Contigo. Todos los derechos reservados.</p>
+        <p>Este proyecto está bajo la licencia MIT.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
