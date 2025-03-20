@@ -1,9 +1,15 @@
+# Siempre Contigo
+
+[![CI](https://github.com/mechmind-dwv/SiempreContigo/actions/workflows/ci.yml/badge.svg)](https://github.com/mechmind-dwv/SiempreContigo/actions/workflows/ci.yml)
+
+Aplicación móvil y plataforma web para mejorar la calidad de vida de los adultos mayores, ofreciendo seguridad, compañía y asistencia personalizada.
 # SiempreContigo
 `Aplicación móvil y plataforma web para mejorar la calidad de vida de los adultos mayores, ofreciendo seguridad, compañía y asistencia personalizada.`
 
 ---
 
 ### **Contenido del README.md**
+
 ```markdown
 # Siempre Contigo
 
@@ -76,7 +82,6 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
    http://localhost:3000
 
    ```
-
 ---
 
 ## Uso
