@@ -2,38 +2,84 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.2",
+    "web-vitals": "^3.5.0",
+    "prop-types": "^15.8.1",
+    "axios": "^1.7.2",
+    "react-router-dom": "^6.23.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/user-event": "^14.6.0",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-env": "^7.24.4",
+    "eslint-plugin-testing-library": "^6.2.0",
+    "eslint-plugin-jest-dom": "^5.2.0",
+    "prettier": "^3.3.2",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-when": "^3.7.0",
+    "msw": "^2.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --watchAll=false",
+    "test:watch": "react-scripts test",
+    "coverage": "react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
-    ]
+      "react-app/jest",
+      "plugin:testing-library/react",
+      "plugin:jest-dom/recommended"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
   },
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "not ie > 0",
+      "not samsung > 0",
+      "not and_uc > 0"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 safari versions",
+      "last 2 edge versions"
     ]
-  }
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy",
+      "\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js",
+      "jest-when"
+    ]
+  },
+  "keywords": [
+    "react",
+    "healthcare",
+    "senior-care",
+    "accessibility"
+  ],
+  "author": "Equipo de Ingeniería Siempre Contigo <ingenieria@siemprecontigo.com>"
 }
