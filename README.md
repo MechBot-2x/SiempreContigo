@@ -10,7 +10,6 @@ Aplicación móvil y plataforma web para mejorar la calidad de vida de los adult
 
 ### **Contenido del README.md**
 
-```markdown
 # Siempre Contigo
 
 ![Logo de Siempre Contigo](public/img/logo.png) <!-- Si tienes un logo -->
