@@ -2,14 +2,6 @@
 
 [![CI](https://github.com/mechmind-dwv/SiempreContigo/actions/workflows/ci.yml/badge.svg)](https://github.com/mechmind-dwv/SiempreContigo/actions/workflows/ci.yml)
 
-`Aplicación móvil y plataforma web para mejorar la calidad de vida de los adultos mayores, ofreciendo seguridad, compañía y asistencia personalizada.`
-
----
-
-### **Contenido del README.md**
-
-# Siempre Contigo
-
 ![Logo de Siempre Contigo](public/img/logo.png) <!-- Si tienes un logo -->
 
 **Siempre Contigo** es una aplicación móvil y plataforma web diseñada para mejorar la calidad de vida de los adultos mayores, ofreciendo seguridad, compañía y asistencia personalizada. Utiliza tecnologías de inteligencia artificial para proporcionar funcionalidades avanzadas como detección de caídas, seguimiento de la salud y un asistente virtual inteligente.
