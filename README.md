@@ -162,5 +162,3 @@ Si tienes preguntas, sugerencias o necesitas soporte, no dudes en contactarnos:
 
 8. **Contacto**:
    - Proporciona información para contactar al equipo de desarrollo.
-
----
