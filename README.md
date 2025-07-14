@@ -131,7 +131,7 @@ Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICE
 ## Contacto
 Si tienes preguntas, sugerencias o necesitas soporte, no dudes en contactarnos:
 
-- **Correo electrónico**: ai.mechmind@gmail.com
+- **Correo electrónico**: ia.mechmind@gmail.com
 - **Repositorio**: [GitHub](https://github.com/mechmind-dwv/SiempreContigo)
 ```
 
