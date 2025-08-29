@@ -52,4 +52,4 @@
 
 ## Contacto
 
-* Si tienes alguna pregunta, no dudes en contactarnos: ai.mechmind@gmail.com
+* Si tienes alguna pregunta, no dudes en contactarnos: ia.mechmind@gmail.com
