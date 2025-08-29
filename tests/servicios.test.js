@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // tests/servicios.test.js
 
 const { detectarCaida, enviarAlerta } = require('../src/servicios/emergencias');
@@ -68,5 +69,13 @@ describe('Funciones de Detección de Caídas', () => {
       expect(enviarAlerta).toHaveBeenCalledTimes(1);
       expect(enviarAlerta).toHaveBeenCalledWith(datos);
     });
+=======
+import { enviarAlerta } from "../src/servicios/emergencias.js";
+
+describe("Servicios de Emergencia", () => {
+  test("debería enviar alertas correctamente", () => {
+    const resultado = enviarAlerta("Test de alerta");
+    expect(resultado.success).toBe(true);
+>>>>>>> caee153 (Implementación inicial del proyecto)
   });
 });

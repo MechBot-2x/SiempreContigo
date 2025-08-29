@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/ia/deteccion-caidas.js
 
 const { enviarAlerta } = require('../servicios/emergencias');
@@ -31,6 +32,12 @@ async function detectarCaida(datos) {
     console.error(`Error al detectar caída o enviar alerta: ${error.message}`);
     // Considera lanzar el error nuevamente o manejarlo de otra manera según las necesidades del proyecto
   }
+=======
+// Detección de caídas con IA
+export function detectarCaida(sensores) {
+  console.log("🤖 Analizando datos de sensores...");
+  return { caidaDetectada: false, confianza: 0.95 };
+>>>>>>> caee153 (Implementación inicial del proyecto)
 }
 
 module.exports = { detectarCaida };

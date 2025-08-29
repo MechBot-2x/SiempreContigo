@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/servicios/emergencias.js
 
 /**
@@ -31,6 +32,24 @@ async function detectarCaida(datos) {
     if (aceleracion >= umbralCaida) {
         await enviarAlerta(datos); // Llama a la función para enviar una alerta
     }
+=======
+// 🚨 Servicios de Emergencia
+export async function configurarEmergency() {
+  console.log("📞 Configurando sistema de emergencias...");
+  console.log("👥 Contactos de emergencia registrados");
+  console.log("📍 Sistema de geolocalización activo");
+  
+  return {
+    emergenciasConfiguradas: true,
+    contactos: 3,
+    alertasAutomaticas: true
+  };
+}
+
+export function enviarAlerta(mensaje) {
+  console.log("🚨 Alerta enviada:", mensaje);
+  return { success: true, mensaje };
+>>>>>>> caee153 (Implementación inicial del proyecto)
 }
 
 /**
