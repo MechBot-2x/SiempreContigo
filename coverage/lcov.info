@@ -1,4 +1,5 @@
 TN:
+<<<<<<< HEAD
 SF:SiempreContigo/src/ia/deteccion-caidas.js
 FN:3,detectarCaida
 FNF:1
@@ -35,10 +36,22 @@ FNDA:2,enviarAlerta
 DA:3,2
 LF:1
 LH:1
+=======
+SF:src/ia/deteccion-caidas.js
+FN:2,detectarCaida
+FNF:1
+FNH:1
+FNDA:1,detectarCaida
+DA:3,1
+DA:4,1
+LF:2
+LH:2
+>>>>>>> caee153 (Implementación inicial del proyecto)
 BRF:0
 BRH:0
 end_of_record
 TN:
+<<<<<<< HEAD
 SF:src/ia/deteccion-caidas.js
 FN:13,detectarCaida
 FNF:1
@@ -100,4 +113,23 @@ BRDA:31,4,0,3
 BRDA:31,4,1,1
 BRF:10
 BRH:10
+=======
+SF:src/servicios/emergencias.js
+FN:2,configurarEmergency
+FN:14,enviarAlerta
+FNF:2
+FNH:1
+FNDA:0,configurarEmergency
+FNDA:1,enviarAlerta
+DA:3,0
+DA:4,0
+DA:5,0
+DA:7,0
+DA:15,1
+DA:16,1
+LF:6
+LH:2
+BRF:0
+BRH:0
+>>>>>>> caee153 (Implementación inicial del proyecto)
 end_of_record

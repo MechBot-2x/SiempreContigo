@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <coverage generated="1742411389374" clover="3.2.0">
   <project timestamp="1742411389374" name="All files">
     <metrics statements="11" coveredstatements="10" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2" elements="20" coveredelements="18" complexity="0" loc="11" ncloc="11" packages="2" files="2" classes="2"/>
@@ -23,6 +24,29 @@
       <file name="emergencias.js" path="/data/data/com.termux/files/home/SiempreContigo-/src/servicios/emergencias.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
+=======
+<coverage generated="1756480556993" clover="3.2.0">
+  <project timestamp="1756480556994" name="All files">
+    <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="11" coveredelements="6" complexity="0" loc="8" ncloc="8" packages="2" files="2" classes="2"/>
+    <package name="ia">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="deteccion-caidas.js" path="/data/data/com.termux/files/home/SiempreContigo/src/ia/deteccion-caidas.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="servicios">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="emergencias.js" path="/data/data/com.termux/files/home/SiempreContigo/src/servicios/emergencias.js">
+        <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+>>>>>>> caee153 (Implementación inicial del proyecto)
       </file>
     </package>
   </project>

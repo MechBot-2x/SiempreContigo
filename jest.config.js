@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // jest.config.js
 module.exports = {
   // Configuración de transformación para que Jest use Babel.
@@ -37,4 +38,11 @@ module.exports = {
 
   // Selecciona qué archivos de pruebas incluir.
   testMatch: ['**/tests/**/*.test.js'], // Define la ruta y los patrones de los archivos de prueba.
+=======
+export default {
+  transform: {
+    "^.+\\.js$": "babel-jest"
+  },
+  testEnvironment: "node"
+>>>>>>> caee153 (Implementación inicial del proyecto)
 };
